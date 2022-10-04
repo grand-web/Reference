@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<title>A valid HTML document</title>
+		<meta name="description" content="My practice project">
+		<link rel="stylesheet" href="style.css">
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<p>Цвета HTML задаются с использованием предопределенных имен цветов, или RGB, Hex(Шестнадцатеричное значение), HSL, RGBA, HSLA значений.</p>
+		<hr>
+		<h2>Названия цветов</h2>
+		<p>В HTML цвет можно задать с помощью имени цвета:</p>
+		<h1 style="background-color:Tomato;">Tomato</h1>
+		<h1 style="background-color:Orange;">Orange</h1>
+		<h1 style="background-color:DodgerBlue;">DodgerBlue</h1>
+		<p>HTML поддерживает <a href="https://www.w3schools.com/colors/colors_names.asp">стандартные имена 140 цветов.</a></p>
+		<hr>
+		<h2>Цвет фона</h2>
+		<p>Можно задать цвет фона для элементов HTML:</p>
+		<div style="background-color:dodgerblue;color:white;font-size:24px;">Всем привет</div>
+		<br>
+		<div style="background-color:tomato;color:white;"><br>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.<br><br></div>
+		<hr>
+		<h2>Цвет текста</h2>
+		<p>Вы можете установить цвет текста:</p>
+		<h3 style="color:dodgerblue">Всем привет</h3>
+		<p style="color:tomato">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+		<hr>
+		<h2>Цвет границы</h2>
+		<p>Вы можете установить цвет границ:</p>
+		<h2 style="border: 2px solid dodgerblue;">Всем привет</h2>
+		<h2 style="border: 2px solid Tomato;">Всем привет</h2>
+		<hr>
+		<h2>Значения цвета</h2>
+		<p>В HTML цвета также могут быть заданы с помощью значений RGB, шестнадцатеричных значений (hex), HSL значений, RGBA значений и HSLA значений:</p>
+		<p><b>RGB</b> (red, green, blue)</p>
+		<p><b>#hex</b>adecimal-color-value</p>
+		<p><b>HSL</b> (hue, saturation, lightness) (оттенок, насыщенность, легкость)</p>
+		<p>RGBA (red, green, blue, alpha)</p>
+		<p>HSLA (hue, saturation, lightness, alpha)</p>
+		<p>Например, так же, как название цвет "Tomato":</p>
+		<div class="w3-center" style="line-height:60px;color:white;font-size:20px;font-weight:bold;font-family:Consolas, 'Courier New', Courier, monospace">
+			<div style="background-color:rgb(255, 99, 71);margin:10px 0;">rgb(255, 99, 71)</div>
+			<div style="background-color:#ff6347;margin:10px 0;">#ff6347</div>
+			<div style="background-color:hsl(9, 100%, 64%);margin:10px 0;">hsl(9, 100%, 64%)</div>
+		</div>
+		<p>Так же, как название цвета "Tomato", но 50% прозрачный:</p>
+		<div class="w3-center" style="line-height:60px;color:white;font-size:20px;font-weight:bold;font-family:Consolas, 'Courier New', Courier, monospace">
+			<div style="background-color:rgba(255, 99, 71, 0.5);margin:10px 0;">rgba(255, 99, 71, 0.5)</div>
+			<div style="background-color:hsla(9, 100%, 64%, 0.5);margin:10px 0;">hsla(9, 100%, 64%, 0.5)</div>
+		</div>
+		
+		<h2>Прозрачность</h2>
+		<p>В CSS есть три способа изменить прозрачность элемента: <br> с помощью функции rgba(), <br> с помощью функции hsla(), <br> <b>c помощью свойства opacity - ПРЕДПОЧТИТЕЛЬНО.</b> Так как основной цвет в таком случае, может свободно выбираться с измением стиля.</p>
+		<p>Свойство <kbd>opacity</kbd> позволяет сделать любой элемент веб-страницы частично или полностью прозрачным. Данное свойство изменяет прозрачность элементов, для которых установлено фоновое изображение (картинка) или задан фон с помощью цвета или градиента. Если элемент, для которого применено свойство <kbd>opacity</kbd>, содержит внутри себя другие элементы, то они также изменят свою прозрачность.<br>Свойство принимает значения в диапазоне от 0 (полностью прозрачный) до 1 (непрозрачный) или проценты в пределах от 0% до 100%. Можно выставить несколько чисел после запятой, например "0.44". То же значение принимает и альфа-канал (rgba,hsla)</p>
+	</body>
+</html>
