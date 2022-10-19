@@ -1,13 +1,66 @@
 <!DOCTYPE html>
 <html lang="ru">
-	<head>
-		<meta charset="utf-8">
-		<title>A valid HTML document</title>
-		<meta name="description" content="My practice project">
-		<link rel="stylesheet" href="style.css">
-		<script src="script.js"></script>
-	</head>
-	<body>
-		<p>Hello, world!</p>
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <title>A valid HTML document</title>
+    <meta name="description" content="My practice project" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <p>
+      Веб-хранилище HTML предоставляет два объекта для хранения данных на
+      клиентском компьютере:
+    </p>
+    <ul>
+      <li>
+        <code class="w3-codespan">window.localStorage</code> - хранит данные без
+        даты истечения срока действия
+      </li>
+      <li>
+        <code class="w3-codespan">window.sessionStorage</code> - хранит данные
+        для одного сеанса (данные теряются при закрытии вкладки обозревателя)
+      </li>
+    </ul>
+    <p>
+      Перед использованием веб-хранилища Проверьте поддержку обозревателя для
+      localStorage и sessionStorage:
+    </p>
+    <code
+      >if (typeof(Storage) !== "undefined") { <br />
+      // Code for localStorage/sessionStorage. <br />} else { <br />
+      // Sorry! No Web Storage support.. <br />}</code
+    >
+
+    <h3>Объект localStorage</h3>
+
+    <p>
+      Объект localStorage хранит данные без даты истечения срока действия.
+      Данные не будут удалены при закрытии обозревателя и будут доступны на
+      следующий день, неделю или год.
+    </p>
+    <p><button onclick="clickCounter()" type="button">Click me!</button></p>
+    <div id="result"></div>
+    <p>Нажмите кнопку, чтобы увидеть увеличение счетчика.</p>
+    <p>
+      Закройте вкладку (или окно) браузера и повторите попытку, и счетчик будет
+      продолжать отсчет (не сбрасывается).
+    </p>
+
+    <h3>Объект sessionStorage</h3>
+    <p>
+      sessionStorage объект равен объекту localStorage, за исключением того, что
+      он хранит данные только для одного сеанса. Данные удаляются, когда
+      пользователь закрывает конкретную вкладку обозревателя.
+    </p>
+    <p><button onclick="clickCounter2()" type="button">Click me!</button></p>
+    <div id="result2"></div>
+    <p>Нажмите кнопку, чтобы увидеть увеличение счетчика.</p>
+    <p>
+      Закройте вкладку (или окно) браузера и повторите попытку, и счетчик будет
+      сброшен.
+    </p>
+
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+  </body>
 </html>
