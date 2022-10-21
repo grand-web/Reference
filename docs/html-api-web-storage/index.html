@@ -4,7 +4,6 @@
     <meta charset="utf-8" />
     <title>A valid HTML document</title>
     <meta name="description" content="My practice project" />
-    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <p>
@@ -13,12 +12,12 @@
     </p>
     <ul>
       <li>
-        <code class="w3-codespan">window.localStorage</code> - хранит данные без
-        даты истечения срока действия
+        <code>window.localStorage</code> - хранит данные без даты истечения
+        срока действия
       </li>
       <li>
-        <code class="w3-codespan">window.sessionStorage</code> - хранит данные
-        для одного сеанса (данные теряются при закрытии вкладки обозревателя)
+        <code>window.sessionStorage</code> - хранит данные для одного сеанса
+        (данные теряются при закрытии вкладки обозревателя)
       </li>
     </ul>
     <p>
@@ -31,6 +30,8 @@
       // Sorry! No Web Storage support.. <br />}</code
     >
 
+    <hr />
+
     <h3>Объект localStorage</h3>
 
     <p>
@@ -39,12 +40,14 @@
       следующий день, неделю или год.
     </p>
     <p><button onclick="clickCounter()" type="button">Click me!</button></p>
-    <div id="result"></div>
+    <div id="result" style="background-color: lightgray"></div>
     <p>Нажмите кнопку, чтобы увидеть увеличение счетчика.</p>
     <p>
       Закройте вкладку (или окно) браузера и повторите попытку, и счетчик будет
       продолжать отсчет (не сбрасывается).
     </p>
+
+    <hr />
 
     <h3>Объект sessionStorage</h3>
     <p>
@@ -53,7 +56,7 @@
       пользователь закрывает конкретную вкладку обозревателя.
     </p>
     <p><button onclick="clickCounter2()" type="button">Click me!</button></p>
-    <div id="result2"></div>
+    <div id="result2" style="background-color: lightgray"></div>
     <p>Нажмите кнопку, чтобы увидеть увеличение счетчика.</p>
     <p>
       Закройте вкладку (или окно) браузера и повторите попытку, и счетчик будет
