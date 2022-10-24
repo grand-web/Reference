@@ -1,9 +1,10 @@
 # Примеры HTML
 [![W3C Validation](https://img.shields.io/w3c-validation/default?targetUrl=https%3A%2F%2Fgrand-web.github.io%2Fsimple-html-templates%2F)](https://www.w3.org/Consortium/)
 
-- Примеры семантической верстки HTML документов.
-- Простые примеры использования синтаксиса JS/HTML/CSS.
+- Простые примеры использования базового синтаксиса JS/HTML/CSS.
 - Решение основных задач, без обращения к сторонним библиотекам.
+- Примеры семантической верстки HTML документов.
+- Руководства по основам языков.
 
 ## Установка
 ```sh
