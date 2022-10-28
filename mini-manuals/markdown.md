@@ -256,7 +256,7 @@ $c = $a + $b;
 
 | First Header | Second Header |
 | ------------ | ------------- |
-| Content Cell | Content Cell  |****
+| Content Cell | Content Cell  |
 | Content Cell | Content Cell  |
 
 Можно управлять выравниванием столбцов при помощи двоеточия.
