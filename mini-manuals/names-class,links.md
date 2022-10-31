@@ -1,5 +1,7 @@
+## Популярные названия классов
 
-## Популярные названия классов 
+<!-- TODO полная проверка -->
+
 ---
 
 ### Структурные Блоки
@@ -156,20 +158,21 @@
 `preview` — анонс, отрывок, например новости или поста, может состоять из заголовка, описания и картинки. Предполагается ссылка на полную версию
 
 ---
+
 ## Link-demo
 
-get.
-app.
-docs.
-auth.
-community.
-storage.
-cdn.
-srv.
-account.
-panel.
+get.  
+app.  
+docs.  
+welcome.  
+auth.  
+community.  
+storage.  
+cdn.  
+srv.  
+account.  
+panel.  
 admin.
-welcome.
 
 \#sub34
 /w/
@@ -180,19 +183,18 @@ ray
 
 #### Примеры ссылкок ВК
 
-https://vk.com/public22751485
-https://vk.com/album-22751485_0 (аватар альбом)
-https://vk.com/album-22751485_00 (стена альбом)
+https://vk.com/public22751485  
+https://vk.com/album-22751485_0 (аватар альбом)  
+https://vk.com/album-22751485_00 (стена альбом)  
 https://vk.com/albums-22751485 (все альбомы)
 
-https://vk.com/wall-22751485 (вся стена)
-https://vk.com/wall-22751485_6198174 (пост)
+https://vk.com/wall-22751485 (вся стена)  
+https://vk.com/wall-22751485_6198174 (пост)  
 https://vk.com/photo-22751485_458092417 (фото)
 
 https://sun1.57354.userapi.com/impg/PRQXaGDGwHL0LjBGqI4g62FdAKw3f94NfHcwdQ/jDB7ueefmWA.jpg?size=882x1280&quality=96&sign=92a73b4b80d283ec57c29270fd9de7fd&type=album
 https://sun2.57354.userapi.com/impg/PRQXaGDGwHL0LjBGqI4g62FdAKw3f94NfHcwdQ/jDB7ueefmWA.jpg?size=882x1280&quality=96&sign=92a73b4b80d283ec57c29270fd9de7fd&type=album
 https://pp.userapi.com/impg/PRQXaGDGwHL0LjBGqI4g62FdAKw3f94NfHcwdQ/jDB7ueefmWA.jpg?size=882x1280&quality=96&sign=92a73b4b80d283ec57c29270fd9de7fd&type=album
-
 
 https://vk.com/id117807417 (аватар.альбом)
 https://vk.com/album117807417_0 (стена альбом)

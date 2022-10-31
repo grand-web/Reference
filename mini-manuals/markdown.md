@@ -14,6 +14,8 @@
 [Новая строка](#lines)  
 [Символы](#symbols)
 
+<!-- TODO полная проверка -->
+
 <a name="headers"></a>
 
 ## Заголовки
@@ -152,7 +154,7 @@ _Курсив_
 ---
 
 Проще всего вставить с помощью HTML  
-`<img src="img.png" alt="image" width="200"/>`  
+`<img src="img.png" alt="image" width="200"/>`
 
 можно добавить CSS атрибуты, например  
 `style="float: right;`
