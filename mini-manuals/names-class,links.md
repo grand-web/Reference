@@ -148,7 +148,7 @@
 
 `breadcrumbs` — навигационная цепочка, «хлебные крошки»
 
-`more, all` — ссылка на полную информацию
+`more, all` — ссылка на полную информацию  
 `modal` — модальное (диалоговое) окно
 
 `popup` — всплывающее окно
@@ -174,34 +174,9 @@ account.
 panel.  
 admin.
 
-\#sub34
-/w/
-?step=
-inc/
-ray
+/#sub34  
+/w/  
+?step=  
+inc/  
+ray  
 /orders
-
-#### Примеры ссылкок ВК
-
-https://vk.com/public22751485  
-https://vk.com/album-22751485_0 (аватар альбом)  
-https://vk.com/album-22751485_00 (стена альбом)  
-https://vk.com/albums-22751485 (все альбомы)
-
-https://vk.com/wall-22751485 (вся стена)  
-https://vk.com/wall-22751485_6198174 (пост)  
-https://vk.com/photo-22751485_458092417 (фото)
-
-https://sun1.57354.userapi.com/impg/PRQXaGDGwHL0LjBGqI4g62FdAKw3f94NfHcwdQ/jDB7ueefmWA.jpg?size=882x1280&quality=96&sign=92a73b4b80d283ec57c29270fd9de7fd&type=album
-https://sun2.57354.userapi.com/impg/PRQXaGDGwHL0LjBGqI4g62FdAKw3f94NfHcwdQ/jDB7ueefmWA.jpg?size=882x1280&quality=96&sign=92a73b4b80d283ec57c29270fd9de7fd&type=album
-https://pp.userapi.com/impg/PRQXaGDGwHL0LjBGqI4g62FdAKw3f94NfHcwdQ/jDB7ueefmWA.jpg?size=882x1280&quality=96&sign=92a73b4b80d283ec57c29270fd9de7fd&type=album
-
-https://vk.com/id117807417 (аватар.альбом)
-https://vk.com/album117807417_0 (стена альбом)
-https://vk.com/album117807417_00 (все альбомы)
-
-https://vk.com/wall117807417 (вся стена)
-https://vk.com/wall117807417_211062 (пост)
-https://vk.com/photo117807417_457250504 (фото)
-https://sun9-23.userapi.com/sun9-5/impg/56AgpfDgv0f4KB3uHhA1VZWxrPvA4mLmo9naww/9aKucVSko9c.jpg?size=1220x892&quality=96&sign=22bcae365f29600f7f4e9fc518439424&type=album
-https://pp.userapi.com/impg/56AgpfDgv0f4KB3uHhA1VZWxrPvA4mLmo9naww/9aKucVSko9c.jpg?size=1220x892&quality=96&sign=22bcae365f29600f7f4e9fc518439424&type=album
