@@ -11,7 +11,7 @@
 #### HTML
 
 - [HTML, основы](mini-manuals/html.md)
-- [HTML, семантическая вертска](mini-manuals/html-semantic.md)
+- [HTML, семантическая верстка](mini-manuals/html-semantic.md)
 - [HTML, прототипирование](mini-manuals/html-prototype.md)
 - [HTML, метаинформация в <head\>](mini-manuals/html-head.md)
 - [Красивые имена классов и ссылок](mini-manuals/oth/names-class-links.md)
@@ -23,7 +23,10 @@
 #### Дополнительно
 
 - [Разметка Markdown](mini-manuals/md.md)
-- [Горячие клавиши VS Сode](mini-manuals/oth/vscode-keyboard-shortcuts-ru.pdf)
+
+- [Горячие клавиши VS Сode (для печати)](mini-manuals/oth/vscode-keyboard-shortcuts-ru.pdf)  
+[Горячие клавиши PhpStorm (для печати)](mini-manuals/oth/phpstorm-hotkeys-ru.pdf)
+<!-- TODO добавить Bash shortcuts -->
 
 ## Установка
 
