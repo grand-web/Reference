@@ -22,7 +22,7 @@
 
 #### Дополнительно
 
-- [Разметка Markdown](mini-manuals/md.md)
+- [Руководство по Markdown](mini-manuals/md.md)
 
 - [Горячие клавиши VS Сode (для печати)](mini-manuals/oth/vscode-keyboard-shortcuts-ru.pdf)  
 [Горячие клавиши PhpStorm (для печати)](mini-manuals/oth/phpstorm-hotkeys-ru.pdf)
