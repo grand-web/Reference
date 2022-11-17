@@ -1,4 +1,4 @@
-<!-- FIXME full edit -->
+<!-- FIXME FULL REVIEW -->
 
 ### Теги h1-h6, заголовки в HTML
 

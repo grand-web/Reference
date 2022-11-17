@@ -10,6 +10,8 @@
 
 #### HTML
 
+<!-- FIXME ИСПРАВИТЬ+ДОБАВИТЬ ССЫЛКИ -->
+
 - [HTML, основы](mini-manuals/html.md)
 - [HTML, семантическая верстка](mini-manuals/html-semantic.md)
 - [HTML, прототипирование](mini-manuals/html-prototype.md)
@@ -23,10 +25,6 @@
 #### Дополнительно
 
 - [Руководство по Markdown](mini-manuals/md.md)
-
-- [Горячие клавиши VS Сode (для печати)](mini-manuals/oth/vscode-keyboard-shortcuts-ru.pdf)  
-[Горячие клавиши PhpStorm (для печати)](mini-manuals/oth/phpstorm-hotkeys-ru.pdf)
-<!-- TODO добавить Bash shortcuts -->
 
 ## Установка
 
