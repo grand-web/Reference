@@ -11,23 +11,24 @@
 #### HTML
 
 <!-- FIXME ИСПРАВИТЬ+ДОБАВИТЬ ССЫЛКИ -->
+<!-- FIXME ДОБАВИТЬ СУБ-ССЫЛКИ -->
 
 - [HTML, основы](mini-manuals/html.md)
 - [HTML, семантическая верстка](mini-manuals/html-semantic.md)
-- [HTML, прототипирование](mini-manuals/html-prototype.md)
-- [HTML, метаинформация в <head\>](mini-manuals/html-head.md)
-- [Красивые имена классов и ссылок](mini-manuals/oth/names-class-links.md)
+- [HTML, основные теги элементов](mini-manuals/html-tags.md)
+- [HTML, метаинформация <head\>](mini-manuals/html-head.md)
+- [HTML, прототипирование сайта](mini-manuals/html-prototype.md)
 
 #### CSS
 
 - [CSS, основы](mini-manuals/css.md)
+- [CSS, селекторы](mini-manuals/css-selectors.md)
+
+#### MD
+
+- [Руководство по Markdown](mini-manuals/md.md)
+- [Пример README для Github](<mini-manuals/md(example).md>)
 
 #### Дополнительно
 
-- [Руководство по Markdown](mini-manuals/md.md)
-
-## Установка
-
-```sh
-git clone https://github.com/grand-web/simple-html-templates.git
-```
+- [Красивые имена классов и ссылок](mini-manuals/oth/names-class-links.md)
