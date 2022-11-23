@@ -14,10 +14,11 @@
 <!-- FIXME ДОБАВИТЬ СУБ-ССЫЛКИ -->
 
 - [HTML, основы](mini-manuals/html.md)
-- [HTML, семантическая верстка](mini-manuals/html-semantic.md)
-- [HTML, основные теги элементов](mini-manuals/html-tags.md)
+- [HTML, семантическая верстка](mini-manuals/html.md#семантическая-верстка)
+- [HTML, популярные теги](mini-manuals/html-tags.md)
 - [HTML, метаинформация <head\>](mini-manuals/html-head.md)
 - [HTML, прототипирование сайта](mini-manuals/html-prototype.md)
+- [HTML, , загрузка сайта](mini-manuals/html-prototype.md)
 
 #### CSS
 
