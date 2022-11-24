@@ -11,25 +11,35 @@
 #### HTML
 
 <!-- FIXME ИСПРАВИТЬ+ДОБАВИТЬ ССЫЛКИ -->
-<!-- FIXME ДОБАВИТЬ СУБ-ССЫЛКИ -->
 
 - [HTML, основы](mini-manuals/html.md)
 - [HTML, семантическая верстка](mini-manuals/html.md#семантическая-верстка)
-- [HTML, популярные теги](mini-manuals/html-tags.md)
+- [HTML, потоковые контейнеры](mini-manuals/html-flow.md)
+- [HTML, теги](mini-manuals/html-tags.md) [[1]\] [[2]\] [[3]\]
 - [HTML, метаинформация <head\>](mini-manuals/html-head.md)
-- [HTML, прототипирование сайта](mini-manuals/html-prototype.md)
-- [HTML, , загрузка сайта](mini-manuals/html-prototype.md)
+- [HTML, прототипирование](mini-manuals/html-prototype.md)
+
+[1]: https://webref.ru/html
+[2]: https://developer.mozilla.org/ru/docs/Web/HTML/Element#текстовое_содержание
+[3]: https://html5book.ru/html-spravochnik.html
 
 #### CSS
 
 - [CSS, основы](mini-manuals/css.md)
 - [CSS, селекторы](mini-manuals/css-selectors.md)
+- CSS, псевдоклассы, псеводэлементы
+- CSS, теги
 
 #### MD
 
 - [Руководство по Markdown](mini-manuals/md.md)
-- [Пример README для Github](<mini-manuals/md(example).md>)
+  - [Спецсимволы](mini-manuals/md#спецсимволы)
+  - [Эмодзи](mini-manuals/md#эмодзи)
 
 #### Дополнительно
 
-- [Красивые имена классов и ссылок](mini-manuals/oth/names-class-links.md)
+- Памятка Git
+- Основные команды Bash
+- [Красивые имена классов/ссылок](mini-manuals/oth/names-class-links.md)
+
+- [Горячие клавиши PhpStorm (для печати)](https://github.com/LoginovIlya/PhpStorm-hotkeys-ru/blob/master/PhpStorm_Hotkeys_ru.pdf)
