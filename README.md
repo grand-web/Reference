@@ -6,7 +6,7 @@
 - Решение основных задач, без обращения к сторонним библиотекам.
 - Мини-руководства по основам языков.
 
-## Мини-руководства
+## МИНИ-РУКОВОДСТВА
 
 #### HTML
 
@@ -14,8 +14,8 @@
 
 - [HTML, основы](mini-manuals/html.md)
 - [HTML, семантическая верстка](mini-manuals/html.md#семантическая-верстка)
-- [HTML, потоковые контейнеры](mini-manuals/html-flow.md)
-- [HTML, теги](mini-manuals/html-tags.md) [[1]\] [[2]\] [[3]\]
+- [HTML, потоковые контейнеры](mini-manuals/html-containers.md)
+- [HTML, теги](mini-manuals/html-tags.md) <sup>[[1]\] [[2]\] [[3]\]</sup>
 - [HTML, метаинформация <head\>](mini-manuals/html-head.md)
 - [HTML, прототипирование](mini-manuals/html-prototype.md)
 
@@ -33,12 +33,12 @@
 #### MD
 
 - [Руководство по Markdown](mini-manuals/md.md)
-  - [Спецсимволы](mini-manuals/md#спецсимволы)
-  - [Эмодзи](mini-manuals/md#эмодзи)
+  - [Спецсимволы](mini-manuals/md.md#спецсимволы)
+  - [Эмодзи](mini-manuals/md.md#эмодзи)
 
-#### Дополнительно
+#### ДОПОЛНИТЕЛЬНО
 
-- Памятка Git
+- Основные команды GIT
 - Основные команды Bash
 - [Красивые имена классов/ссылок](mini-manuals/oth/names-class-links.md)
 
