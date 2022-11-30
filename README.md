@@ -15,7 +15,7 @@
 - [HTML, основы](mini-manuals/html.md)
 - [HTML, семантическая верстка](mini-manuals/html.md#семантическая-верстка)
 - [HTML, потоковые контейнеры](mini-manuals/html-containers.md)
-- [HTML, теги](mini-manuals/html-tags.md) <sup>[[1]\] [[2]\] [[3]\]</sup>
+- [HTML, теги](mini-manuals/html-tags.md) [[1]\] [[2]\] [[3]\]
 - [HTML, метаинформация <head\>](mini-manuals/html-head.md)
 - [HTML, прототипирование](mini-manuals/html-prototype.md)
 
