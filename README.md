@@ -40,8 +40,8 @@
 
 - [Основные команды GIT](mini-manuals/git.md)
   - [Семантический коммит](mini-manuals/git.md/#семантический-коммит)
-  - [Ведение Changelog](mini-manuals/git.md#ведение-changelog)
-  - [Семантическое версионирование](mini-manuals/git.md#версионирование)
+  - [Версионирование](mini-manuals/git.md#версионирование)
+  - [Changelog](mini-manuals/git.md#ведение-changelog)
 - Основные команды Bash
 - [Красивые имена классов/ссылок](mini-manuals/oth/names-class-links.md)
 
