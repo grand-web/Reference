@@ -355,6 +355,8 @@
 Элемент `<col>` (англ. column — колонка) задаёт ширину и другие характеристики одной или нескольких колонок таблицы. При наличии этого элемента браузер начинает показывать содержимое таблицы, не дожидаясь её полной загрузки. `<col>` можно использовать совместно с элементом `<colgroup>`, который задаёт группу колонок, обладающих общими характеристиками.
 Для `<col>` допустимо использовать следующие стилевые свойства: `border, background, width, visibility`. Остальные свойства не оказывают никакого эффекта на элемент.
 
+### `col`:
+
 ```html
 <table style="width: 100%;">
   <colgroup style="background: #ccc;">
@@ -389,6 +391,9 @@
   </tbody>
 </table>
 
+#### `colgroup`:
+
+```html
 <table style="width: 100%;">
   <colgroup style="background: #eee; width: 25%;" span="2"></colgroup>
   <tbody>
@@ -400,6 +405,21 @@
     <!-- ... -->
   </tbody>
 </table>
+```
+
+  <table style="width: 100%;">
+  <colgroup style="background: #eee; width: 25%;" span="2"></colgroup>
+  <tbody>
+    <tr>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <!-- ... -->
+  </tbody>
+</table>
+
+[мануал по ТАБЛИЦАМ](https://html5book.ru/tablichnye-dannye/#table)
 
 [⬆ вернуться к началу](#оглавление)
 

@@ -14,12 +14,19 @@
 
 - [HTML, основы](mini-manuals/html.md)
 - [HTML, семантическая верстка](mini-manuals/html.md#семантическая-верстка)
-- [HTML, потоковые контейнеры](mini-manuals/html.md/#семантическая-верстка)
+- [HTML, контейнеры](mini-manuals/html-containers.md)
 - [HTML, теги](mini-manuals/html-tags.md) [[1]\] [[2]\] [[3]\]
-  - [таблицы](mini-manuals/html-tags.md/#таблицы)
-  - [формы]
+  - [таблицы](mini-manuals/html-tags.md#таблицы)
+  - [формы](https://html5book.ru/formy/#progress)
 - [HTML, метаинформация <head\>](mini-manuals/html-head.md)
+
+  - [микроформаты](https://microformats.org/)
+  - [hcard](https://ru.wikipedia.org/wiki/HCard)
+
 - [HTML, прототипирование](mini-manuals/html-prototype.md)
+- [HTML, атрибуты](https://html5book.ru/html-attributes/)
+  - [HTML, универсальные атрибуты](https://webref.ru/html/attr/common)
+  - [HTML, события](https://webref.ru/html/attr/event)
 
 [1]: https://webref.ru/html
 [2]: https://developer.mozilla.org/ru/docs/Web/HTML/Element#текстовое_содержание
@@ -28,9 +35,14 @@
 #### CSS
 
 - [CSS, основы](mini-manuals/css.md)
+  - [свойства display](mini-manuals/html-containers.md#свойства-display)
+  - [display table](mini-manuals/html-containers.md#значения-table)
+  - [колонки column](mini-manuals/html-containers.md#колонки-column)
 - [CSS, селекторы](mini-manuals/css-selectors.md)
-- CSS, теги
-- CSS, псевдоклассы, псеводэлементы
+  - [мини-список селекторов](https://html5css.ru/cssref/css_selectors.php)
+- CSS, теги [[1](1111)\]
+  - [интерактивное демо css](https://www.w3schools.com/cssref/playdemo.php?filename=playcss_accent-color)
+- CSS, [псевдоклассы](https://www.w3schools.com/css/css_pseudo_classes.asp), [псеводэлементы](https://www.w3schools.com/css/css_pseudo_elements.asp)
 
 #### MD
 
