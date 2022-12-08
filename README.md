@@ -15,22 +15,32 @@
 - [HTML, основы](mini-manuals/html.md)
 - [HTML, семантическая верстка](mini-manuals/html.md#семантическая-верстка)
 - [HTML, контейнеры](mini-manuals/html-containers.md)
-- [HTML, теги](mini-manuals/html-tags.md) [[1]\] [[2]\] [[3]\]
+- [HTML, теги](mini-manuals/html-tags.md)
+  [[1](https://webref.ru/html 'webref.ru')\]
+  [[2](https://developer.mozilla.org/ru/docs/Web/HTML/Element#текстовое_содержание 'mdn')\]
+  [[3](https://html5book.ru/html-spravochnik.html 'html5book')\]
   - [таблицы](mini-manuals/html-tags.md#таблицы)
-  - [формы](https://html5book.ru/formy/#progress)
-- [HTML, метаинформация <head\>](mini-manuals/html-head.md)
-
-  - [микроформаты](https://microformats.org/)
-  - [hcard](https://ru.wikipedia.org/wiki/HCard)
-
+    [[1](https://html5book.ru/tablichnye-dannye/#table 'html5book')\]
+  - формы [[1](https://html5book.ru/formy/)\]
 - [HTML, прототипирование](mini-manuals/html-prototype.md)
 - [HTML, атрибуты](https://html5book.ru/html-attributes/)
   - [HTML, универсальные атрибуты](https://webref.ru/html/attr/common)
   - [HTML, события](https://webref.ru/html/attr/event)
+- [HTML, метаинформация <head\>](mini-manuals/html-head.md)
 
-[1]: https://webref.ru/html
-[2]: https://developer.mozilla.org/ru/docs/Web/HTML/Element#текстовое_содержание
-[3]: https://html5book.ru/html-spravochnik.html
+  - микроразметка
+    [[1](https://habr.com/ru/company/yandex/blog/246003/ 'habr')\]
+    [[2](https://habr.com/ru/company/yandex/blog/229929/ 'habr')\]
+    [[3 new](https://siteclinic.ru/blog/technical-aspects/structured-data-and-seo/)\]
+
+    - [микроразметка Schema org](https://yandex.ru/support/webmaster/schema-org/what-is-schema-org.html)  
+       [[ВАЛИДАТОР Google](https://developers.google.com/search/docs/appearance/structured-data?hl=ru)\]
+      [[Расш.результаты](https://search.google.com/test/rich-results?hl=ru)\]  
+      [[ВАЛИДАТОР Яндекс](https://webmaster.yandex.ru/tools/microtest/)\]
+
+  - [[микроформат hcard ](https://yandex.ru/support/webmaster/hcard/yandex.html 'ya')\]
+
+  - [[о микроформатах ](https://habr.com/ru/hub/microformats/'habr')\]
 
 #### CSS
 
