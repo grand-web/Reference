@@ -31,11 +31,12 @@
   - микроразметка
     [[1](https://habr.com/ru/company/yandex/blog/246003/ 'habr')\]
     [[2](https://habr.com/ru/company/yandex/blog/229929/ 'habr')\]
-    [[3 new](https://siteclinic.ru/blog/technical-aspects/structured-data-and-seo/)\]
+    [[3](https://siteclinic.ru/blog/technical-aspects/structured-data-and-seo/)\]
+    [[4](https://vc.ru/seo/349130-mikrorazmetka-na-sayte-dlya-seo-gayd-s-primerami-spravochnik-redkih-mikrorazmetok)\]
 
     - [микроразметка Schema org](https://yandex.ru/support/webmaster/schema-org/what-is-schema-org.html)  
        [[ВАЛИДАТОР Google](https://developers.google.com/search/docs/appearance/structured-data?hl=ru)\]
-      [[Расш.результаты](https://search.google.com/test/rich-results?hl=ru)\]  
+      [[2](https://search.google.com/test/rich-results?hl=ru)\]  
       [[ВАЛИДАТОР Яндекс](https://webmaster.yandex.ru/tools/microtest/)\]
 
   - [[микроформат hcard ](https://yandex.ru/support/webmaster/hcard/yandex.html 'ya')\]
@@ -46,12 +47,14 @@
 
 - [CSS, основы](mini-manuals/css.md)
   - [свойства display](mini-manuals/html-containers.md#свойства-display)
-  - [display table](mini-manuals/html-containers.md#значения-table)
+    - [display table](mini-manuals/html-containers.md#значения-table)
   - [колонки column](mini-manuals/html-containers.md#колонки-column)
 - [CSS, селекторы](mini-manuals/css-selectors.md)
   - [мини-список селекторов](https://html5css.ru/cssref/css_selectors.php)
-- CSS, теги [[1](1111)\]
-  - [интерактивное демо css](https://www.w3schools.com/cssref/playdemo.php?filename=playcss_accent-color)
+- CSS, [теги](mini-manuals/css-tags.md)
+  - [центрирование](https://www.w3schools.com/css/css_align.asp 'w3s')
+  - [переносы строки](mini-manuals/css-tags.md#переносы)
+  - [интерактивное ДЕМО CSS](https://www.w3schools.com/cssref/playdemo.php?filename=playcss_accent-color)
 - CSS, [псевдоклассы](https://www.w3schools.com/css/css_pseudo_classes.asp), [псеводэлементы](https://www.w3schools.com/css/css_pseudo_elements.asp)
 
 #### MD
