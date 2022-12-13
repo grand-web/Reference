@@ -18,6 +18,7 @@
   [[2](https://html5book.ru/html-spravochnik.html 'html5book')\]
   [[3](https://developer.mozilla.org/ru/docs/Web/HTML/Element#текстовое_содержание 'mdn')\]
   - [таблицы](mini-manuals/html-tags.md#таблицы)
+    [[w3c](https://www.w3schools.com/html/html_tables.asp)\]
     [[1](https://html5book.ru/tablichnye-dannye/#table 'html5book')\]
   - [формы](mini-manuals/html-forms.md) [[1](https://html5book.ru/formy/)\]
 - [HTML, прототипирование](mini-manuals/html-prototype.md)
