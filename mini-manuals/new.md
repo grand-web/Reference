@@ -1,4 +1,4 @@
-## HTML 🔥 Мои темплейты
+## 🔥 Мои темплейты
 
 ## Оглавление
 
@@ -194,9 +194,29 @@ https://codebeautify.org/minify-html
 
 ### Изображения
 
+```html
+<img src="image.png" alt="text" />
+```
+
+Изображение-ссылка
+
+```html
+<a href="http://site.ru">
+  <img src="image.png" alt="Описание" />
+</a>
+```
+
+Размер изображения
+
+```html
+<img src="logo.png" width="200" height="100" />
+```
+
 #### Lazy-loading
 
-`<img src="image.png" alt="image" loading="lazy" />`
+```html
+<img src="image.png" alt="image" loading="lazy" />
+```
 
 ```html
 <picture>
