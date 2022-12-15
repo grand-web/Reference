@@ -13,7 +13,7 @@
 - [Ссылки](#ссылки)
 - [Иконки](#иконки)
 - [Микроразметка](#микроразметка)
-  - [Facebook Open Graph](#facebook-open-graph)
+  - [Open Graph](#facebook-open-graph)
   - [Twitter Card / Privacy](#twitter-card--privacy)
   - [Schema.org](#schemaorg)
   - [JSON-LD](#json-ld)

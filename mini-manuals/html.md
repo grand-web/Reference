@@ -430,6 +430,48 @@ Html-теги бывают **парными и одиночными**.
 </figure>
 ```
 
+#### Modern Float Clearfix
+
+![](img/new-clearfix.png)
+
+```html
+<div class="clearfix">
+  <img
+    class="img"
+    src="pineapple.jpg"
+    alt="Pineapple"
+    width="170"
+    height="170"
+  />
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+  imperdiet...
+</div>
+```
+
+<details>
+  <summary>style.css</summary>
+
+```css
+<style>
+  div {
+    border: 3px solid #4CAF50;
+  padding: 5px;
+}
+
+.img {
+float: right;
+}
+
+.clearfix::after {
+content: "";
+clear: both;
+display: table;
+}
+</style>
+```
+
+</details>
+
 [⬆ вернуться к началу](#оглавление)
 
 ## `<div>` и `<span>`, пустые контейнеры для стилизации

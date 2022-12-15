@@ -1,6 +1,6 @@
 # Mini-manuals
 
-[![W3C Validation](https://img.shields.io/w3c-validation/default?targetUrl=https%3A%2F%2Fgrand-web.github.io%2Fmini-manuals%2F)](https://www.w3.org/Consortium/)
+[![W3C Validation](https://img.shields.io/w3c-validation/default?targetUrl=https%3A%2F%2Fgrand-web.github.io%2FReference%2F)](https://www.w3.org/Consortium/)
 
 - Примеры использования базового синтаксиса JS/HTML/CSS.
 - Решение основных задач, без обращения к сторонним библиотекам.
@@ -33,10 +33,11 @@
     [[3](https://siteclinic.ru/blog/technical-aspects/structured-data-and-seo/)\]
     [[4](https://vc.ru/seo/349130-mikrorazmetka-na-sayte-dlya-seo-gayd-s-primerami-spravochnik-redkih-mikrorazmetok)\]
 
-    [Schema org](https://yandex.ru/support/webmaster/schema-org/what-is-schema-org.html)  
-     [[валидатор Google](https://developers.google.com/search/docs/appearance/structured-data?hl=ru)\]
-    [[расш.](https://search.google.com/test/rich-results?hl=ru)\]
-    [[валидатор Яндекс](https://webmaster.yandex.ru/tools/microtest/)\]
+    [учебник Schema org](https://yandex.ru/support/webmaster/schema-org/what-is-schema-org.html)
+
+    - [[валидатор Google](https://developers.google.com/search/docs/appearance/structured-data?hl=ru)\]
+      [[расш.](https://search.google.com/test/rich-results?hl=ru)\]
+      [[валидатор Яндекс](https://webmaster.yandex.ru/tools/microtest/)\]
 
   - [[микроформат hcard ](https://yandex.ru/support/webmaster/hcard/yandex.html 'ya')\]
 
@@ -58,8 +59,6 @@
 #### MD
 
 - [Руководство по Markdown](mini-manuals/md.md)
-  - [Спецсимволы](mini-manuals/md.md#спецсимволы)
-  - [Эмодзи](mini-manuals/md.md#эмодзи)
 
 #### ДОПОЛНИТЕЛЬНО
 

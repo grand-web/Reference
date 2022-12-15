@@ -2,13 +2,15 @@
 
 ## Оглавление
 
-- [1](#1)
-- [спецсимволы](#спецсимволы)
-- [эмодзи](#эмодзи)
+[Новый документ](#новый-документ)  
+[Новый документ с подробным head](#новый-документ-с-подробным-head)  
+[Импорт шрифтов](#импорт-шрифтов)  
+[Спецсимволы](#спецсимволы)  
+[Эмодзи](#эмодзи)
 
-NAMES, ТАБЛИЦА ЭКРАНОВ, Font-face  
-Минификация - https://css-minifier.com/
-https://codebeautify.org/minify-html
+NAMES, ТАБЛИЦА ЭКРАНОВ, Font-face
+
+[outlines.css.zip](content/outlines.zip)
 
 ### Новый документ
 
@@ -37,6 +39,11 @@ https://codebeautify.org/minify-html
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'" /> -->
+
+    <style>
+      /* critical styles */
+    </style>
 
     <!-- Styles -->
     <link rel="stylesheet" href="style.css" />
@@ -45,14 +52,22 @@ https://codebeautify.org/minify-html
     <!-- <link rel="stylesheet" href="portrait.css" media="(orientation:portrait)" /> -->
     <!-- <link rel="stylesheet" href="tablet.css" media="screen and (max-width: 1080px)" /> -->
 
+    <!--Scripts-->
     <noscript>
       <!-- js off alternarive-->
     </noscript>
     <script defer src="main.js"></script>
 
-    <!-- Base link-->
-    <!-- <base href="https://example.com/page.html" /> -->
+    <!-- App-android -->
+    <meta name="theme-color" content="#4285f4" />
+    <!-- <meta name="application-name" content="App Name" /> -->
+    <!-- <link rel="manifest" href="manifest.webmanifest" /> -->
 
+    <!-- Language -->
+    <meta name="language" content="Russian" />
+    <!-- 150 characters -->
+    <meta name="description" content="" />
+    <!-- 70 characters -->
     <title>Page title</title>
   </head>
 
@@ -61,6 +76,108 @@ https://codebeautify.org/minify-html
   </body>
 </html>
 ```
+
+[CriticalCSS-generator](https://jonassebastianohlsson.com/criticalpathcssgenerator/)  
+[Извлечение критического CSS-кода](https://web.dev/extract-critical-css/)
+
+#### Предзагрузка
+
+```html
+<!-- Prefetching, preloading, prebrowsing -->
+<link rel="preconnect" href="https://www.example.com/" />
+<link rel="dns-prefetch" href="//example.com/" />
+
+<link rel="prefetch" href="https://www.example.com/" />
+<link rel="prerender" href="https://example.com/" />.
+<link rel="preload" href="image.png" as="image" />
+<link rel="modulepreload" href="super-critical-stuff.js" />
+<!-- Предзагрузка модулей -->
+```
+
+[Preload, prefetch и другие теги. ](https://habr.com/ru/post/445264/)
+
+### Open Graph (og:)
+
+```html
+<!-- 55-60 characters -->
+<meta property="og:title" content="Заголовок страницы OG" />
+<!-- 60-65 characters (200-twitter-card) -->
+<meta property="og:description" content="Описание страницы OG" />
+<!-- 200x200>600x314>1200х630 <8mb -->
+<meta property="og:image" content="https://example.com/image.jpg" />
+<meta property="og:url" content="https://example.com/" />
+```
+
+[Еще теги OpenGraph...](./html-head.md#facebook-open-graph-og)  
+[OpenGraph Checker for Chrome](https://chrome.google.com/webstore/detail/open-graph-checker/lkjaebkedoblfeglnhbgbjbdodjdogpe)
+
+> 💡 Можно комбинировать с twitter-card, например:  
+> `<meta name="twitter:url" property="og:url" content="https://example.com">`
+
+### Семантический `<body>`
+
+```html
+<body>
+  <header>
+    <h1>Это мой сайт</h1>
+    <p>Он хороший</p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Эта страница</a></li>
+        <li><a href="catalog.html">Другая страница</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <article>
+      <section>
+        <h2>Первая секция</h2>
+        <p>Она обо мне</p>
+        <img src="images/image.png" alt="Человек и пароход" />
+        <p>Но может быть и о семантике, я пока не решил.</p>
+      </section>
+      <section>
+        <h2>Вторая секция</h2>
+        <p>Она тоже обо мне</p>
+      </section>
+      <section>
+        <h2>И третья</h2>
+        <p>Вы уже должны были начать догадываться.</p>
+      </section>
+    </article>
+  </main>
+  <footer>
+    <p>Сюда бы я вписал информацию об авторе и ссылки на другие сайты</p>
+  </footer>
+</body>
+```
+
+### Микроразметка `schema.org` (json-ld?)
+
+https://yandex.ru/support/webmaster/schema-org/semantic-faq.html
+https://yandex.ru/support/webmaster/schema-org/semantic-faq.html
+https://support.google.com/webmasters/answer/3069489?hl=ru#zippy=
+
+### PERFORMANCE
+
+https://3perf.com/talks/web-perf-101/
+
+### Critical Rendering Path
+
+https://habr.com/ru/post/320430/
+
+### Первая отрисовка контента (FCP)
+
+https://web.dev/fcp/
+
+### RAIL замерить производительность
+
+https://web.dev/rail/#focus-on-the-user
+
+### Минификация
+
+https://css-minifier.com/  
+https://codebeautify.org/minify-html
 
 ### Импорт шрифтов
 
@@ -73,11 +190,12 @@ https://codebeautify.org/minify-html
 }
 ```
 
-[Свойство Fallback](https://developer.mozilla.org/ru/docs/Web/CSS/@font-face/font-display)
+[Свойство fallback](https://developer.mozilla.org/ru/docs/Web/CSS/@font-face/font-display)
 
 ### Изображения
 
-Lazy-loading  
+#### Lazy-loading
+
 `<img src="image.png" alt="image" loading="lazy" />`
 
 ```html
@@ -98,6 +216,8 @@ Lazy-loading
 </picture>
 ```
 
+#### `<figure>` и `<figcaption>`
+
 `<figure>` и `<figcaption>` Используется для группирования любых элементов, например, изображений и подписей к ним. Применяется для иллюстраций, схем, графиков, диаграмм и др.
 
 ```html
@@ -106,68 +226,5 @@ Lazy-loading
   <figcaption>An elephant at sunset</figcaption>
 </figure>
 ```
-
-[⬆ вернуться к началу](#оглавление)
-
-## Спецсимволы
-
----
-
-Чтоб вставить в текст, например, знак больше >, а не выделить текст в виде цитаты, необходимо поставить перед ним **\*_обратный слеш_ \*** вот так: \\>
-
-(_HTML_) Символы-Мнемоники — это особые строки, которые начинаются с **амперсанда** (`&`) и заканчиваются точкой с запятой (`;`). Например, знак меньше на страницу можно вставить мнемоникой `&lt`; (less than), а знак больше мнемоникой `&gt`; (greater than):
-
-```html
-&lt;ul&gt; &lt;/ul&gt;
-```
-
-Спецсимволы (который поддерживает стандарт utf-8) можно вставить по номеру `&#номер;` или имени `&имя;`):
-
-Символы-мнемоники с кодом html:
-| symbol | html |
-| ------------------ | ------------- |
-| ⌧ | `&#8999;` |
-| 🗋 | `&#128459;` empty page |
-| ⧄ | `&solb;` |
-| ⊠ | `&boxtimes;` |
-| ▧ | `&#9639;`|
-| ⬚ |`&#11034;` |
-| • | `&bull;` |
-| · | `&middot;` |
-| ∗ | `&lowast;` |
-| ￭ | `&#65517;` |
-| ▭ ▯ | `&rect;` `&#9647;` |
-| □ | `&squ;` |
-| < > | `&lt;` `&gt;` |
-| non-breaking space | `&nbsp;` |
-| ▴ ▾ ◂ ▸| `&blacktriangle;` +down/left/right|
-| ☰ | `&#9776;` |
-| ⋮ | `&vellip;` |
-| ⨯ | `&Cross;` |  
-| ‥ | `&nldr;` |
-| ⋯ | `&ctdot;` |
-|‘ ’ | `&lsquo;` `&rsquo;` |
-| « » | `&laquo;` `&raquo;`|
-| “ ”| `&ldquo;` `&rdquo;`|
-| ↑ ↓ | `&uarr;` `&darr;` |
-| ← → | `&larr;` `&rarr;` |
-
-[Полный список символов-мнемоник w3](https://html.spec.whatwg.org/multipage/named-characters.html)  
-[Поиск по символам](https://www.compart.com/en/unicode/html)  
-[Типографические украшения](https://www.w3schools.com/charsets/ref_utf_dingbats.asp)
-
-> ✂ ✆ ✉ ✎ ✓ ✔ ✕ ✖ ✗ ✘ ✦ ✧ ✩ ✪ ★ ☆ ✰ ✱ ✶ ❖ ❛ ❜ ❝ ❞ ❬❭ ❮❯ ❰❱ ❶ ❷ ❸ ➊ ➋ ➌ ➔ ➘ ➙ ➚ ➟ ➠ ➢ ➣ ➤ ■ □ ◼ ◻ ▪ ▫ ▲ ▵ △ ▴ ▶ ▷ ▸ ▹ ► ▻ ▼ ▽ ▾ ▿ ◀ ◁ ◂ ◃ ◄ ◅ ◆ ◇ ☂ ★ ☆ ☐ ☑ ☒ ☓ ☞ ☟ ☠ ☢ ☤ ☰ ☺ ☹ ♕ ♡ ⚐ ⚑ ⚞ ⚟ ⚠ • © ® € ₽
-
-[⬆ вернуться к началу](#оглавление)
-
-## Эмодзи
-
----
-
-Для вставки эмодзи, можно использовать имя или номер, например `&#номер;` или `&имя;`, либо просто скопировать и вставить нужный. Размер меняется с помощью CSS-свойства, например:
-`<p style="font-size:100px">&#номер;</p>`
-[Подробный лист с эмодзи](https://www.w3schools.com/charsets/ref_emoji.asp)
-
-> 💡 ⛔ ✅ ☝ ⚡ ✨ ❌ ❎ ⚠️ ❓❔❕❗ 🆕 🔜 🌀 🌈 🌎 🌟 🌿 🍀 🎉 🏳 🏴 🐋 🐳 🐦 👁 👆 👇 👉 👑 💌 💙 ❤️ 💚 💜 🖤 💬 💭 💣 💤 💫 💯 💰 💲 💻 💼 💽 💾 💿 📀 📁 📂 📃 📄 📈 📉 📊 📋 📌 📍 📎 📒 📔 📖 🔗 📝 📞 📡 📢 📣 📤 📥 📦 📧 📨 📩 🔐 🔑 🔒 🔓 🔔 🔥 🔧 🔬 🔮 🔝 🔙 ⬆ ⬇ ⬅ ➡ 🕑 🕶 🖊 🖋 🖍 🖥 🖨 🖱 🖼 🗃 🗄 🗑 🗒 🗓 🗝 🗨 🗯 🚀 🚚 🚧 🚩 🚫 🛒 🛠 🛡 🛰 🤖 🥇 🦄 ➕ ➖ 🌐 👤 💛 ⭐️
 
 [⬆ вернуться к началу](#оглавление)
