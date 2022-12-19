@@ -397,7 +397,7 @@ div2 {
 
 #### Modern Float Clearfix
 
-![](img/new-clearfix.png)
+![](img/html-containers-9.png)
 
 ```html
 <div class="clearfix">
