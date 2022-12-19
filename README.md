@@ -1,4 +1,6 @@
-# Reference<a href="./mini-manuals/new.md">🔥</a>
+<a style="float: right;" href="./mini-manuals/new.md">🔥</a>
+
+# Reference
 
 [![W3C Validation](https://img.shields.io/w3c-validation/default?targetUrl=https%3A%2F%2Fgrand-web.github.io%2FReference%2F)](https://www.w3.org/Consortium/)
 
@@ -32,12 +34,12 @@
 - [HTML, метаинформация <head\>](mini-manuals/html-head.md)
 
   - микроразметка
-    [[✕](https://habr.com/ru/company/yandex/blog/246003/ 'habr')\]
-    [[✕](https://habr.com/ru/company/yandex/blog/229929/ 'habr')\]
-    [[✕](https://siteclinic.ru/blog/technical-aspects/structured-data-and-seo/)\]
-    [[✕](https://vc.ru/seo/349130-mikrorazmetka-na-sayte-dlya-seo-gayd-s-primerami-spravochnik-redkih-mikrorazmetok)\]
+    [[•](https://habr.com/ru/company/yandex/blog/246003/ 'habr')\]
+    [[•](https://habr.com/ru/company/yandex/blog/229929/ 'habr')\]
+    [[•](https://siteclinic.ru/blog/technical-aspects/structured-data-and-seo/)\]
+    [[•](https://vc.ru/seo/349130-mikrorazmetka-na-sayte-dlya-seo-gayd-s-primerami-spravochnik-redkih-mikrorazmetok)\]
 
-    - Schema org [[✕](https://yandex.ru/support/webmaster/schema-org/what-is-schema-org.html)\]
+    - Schema org [[•](https://yandex.ru/support/webmaster/schema-org/what-is-schema-org.html)\]
 
     - [[валидатор Google](https://developers.google.com/search/docs/appearance/structured-data?hl=ru)\]
       [[расш.](https://search.google.com/test/rich-results?hl=ru)\]
@@ -56,13 +58,14 @@
   - [position: значения](mini-manuals/html-containers.md#свойство-position)
   - [центрирование](mini-manuals/html-containers.md#центрирование)
 
-- [CSS, селекторы](mini-manuals/css-selectors.md) [[1](https://html5css.ru/cssref/css_selectors.php 'w3cRu')\]
+- [CSS, селекторы](mini-manuals/css-selectors.md) ([cелекторы-2](mini-manuals/css-selectors-2.md)\)
+  - [[ТАБЛИЦА](mini-manuals/css-selectors.md#таблица-селекторов)\]
 - [CSS, теги](mini-manuals/css-tags.md)❗
 
   - [переносы строки](mini-manuals/css-tags.md#переносы)
   - интерактивное ДЕМО [[1](https://www.w3schools.com/cssref/playdemo.php?filename=playcss_accent-color)\]
 
-- CSS, псевдоклассы [[1](https://www.w3schools.com/css/css_pseudo_classes.asp)\], псеводэлементы [[1](https://www.w3schools.com/css/css_pseudo_elements.asp)\]
+- CSS, [псевдоклассы](mini-manuals/css-pseudocl.md) [[1](https://www.w3schools.com/css/css_pseudo_classes.asp)\], псеводэлементы [[1](https://www.w3schools.com/css/css_pseudo_elements.asp)\]
 
 #### ДОПОЛНИТЕЛЬНО
 
@@ -75,5 +78,3 @@
 
 - [Горячие клавиши PhpStorm (для печати)](https://github.com/LoginovIlya/PhpStorm-hotkeys-ru/blob/master/PhpStorm_Hotkeys_ru.pdf)
 - [Руководство по Markdown](mini-manuals/md.md) 📝
-
-:shipit:
