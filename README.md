@@ -1,6 +1,6 @@
-<a style="float: right;" href="./mini-manuals/new.md">🔥</a>
-
 # Reference
+
+<a style="float: right;" href="./mini-manuals/new.md">🔥</a>
 
 [![W3C Validation](https://img.shields.io/w3c-validation/default?targetUrl=https%3A%2F%2Fgrand-web.github.io%2FReference%2F)](https://www.w3.org/Consortium/)
 
@@ -22,7 +22,8 @@
   - [таблицы](mini-manuals/html-tags.md#таблицы)
     [[1](https://www.w3schools.com/html/html_tables.asp 'w3c')\]
     [[2](https://html5book.ru/tablichnye-dannye/#table 'html5book')\]
-  - [формы](mini-manuals/html-forms.md)❗[[1](https://html5book.ru/formy/ 'html5book')\]
+  - [формы основы](mini-manuals/html-forms.md) [[1](https://html5book.ru/formy/ 'html5book')\]  
+    [формы доп.](mini-manuals/html-forms.md)
 
 - [HTML, прототипирование](mini-manuals/html-prototype.md)❗
 
