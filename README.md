@@ -2,8 +2,6 @@
 
 [![W3C Validation](https://img.shields.io/w3c-validation/default?targetUrl=https%3A%2F%2Fgrand-web.github.io%2FReference%2F)](https://www.w3.org/Consortium/)
 
-<a style="float: right;" href="./mini-manuals/new.md">🔥</a>
-
 - Примеры использования базового синтаксиса JS/HTML/CSS.
 - Решение основных задач, без обращения к сторонним библиотекам.
 - Мини-руководства по основам языков.
@@ -27,7 +25,7 @@
 
 - [HTML, прототипирование](mini-manuals/html-prototype.md)
 
-- HTML, атрибуты [[1](https://html5book.ru/html-attributes/)\]
+- [HTML, атрибуты](mini-manuals/html-attr-global.md) [[1](https://html5book.ru/html-attributes/)\]
 
   - HTML, универсальные атрибуты [[1](https://webref.ru/html/attr/common)\]
   - HTML, события [[1](https://webref.ru/html/attr/event)\]
@@ -72,3 +70,5 @@
 
 - [Горячие клавиши PhpStorm (для печати)](https://github.com/LoginovIlya/PhpStorm-hotkeys-ru/blob/master/PhpStorm_Hotkeys_ru.pdf)
 - [Руководство по Markdown](mini-manuals/md.md) 📝
+
+<a style="float: right;" href="mini-manuals/new.md">🔥</a>
