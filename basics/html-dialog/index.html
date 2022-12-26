@@ -1,42 +1,27 @@
 <!-- Простой попап диалог с формой -->
-<dialog id="favDialog">
-  <form method="dialog">
-    <section>
-      <p>
-        <label for="favAnimal">Favorite animal:</label>
-        <select id="favAnimal">
-          <option></option>
-          <option>Brine shrimp</option>
-          <option>Red panda</option>
-          <option>Spider monkey</option>
-        </select>
-      </p>
-    </section>
-    <menu>
-      <button id="cancel" type="reset">Cancel</button>
-      <button type="submit">Confirm</button>
-    </menu>
-  </form>
-</dialog>
 
-<menu>
-  <button id="updateDetails">Update details</button>
-</menu>
+<dialog close>
+  <h2>Заголовок</h2>
+  <p>
+    Не вызывает сомнений, что сложившаяся структура организации позволяет
+    оценить значение форм воздействия. Не следует, однако, забывать, что курс на
+    социально-ориентированный национальный проект в значительной степени
+    обуславливает создание системы массового участия.
+  </p>
+  <button id="close-dialog">close</button>
+</dialog>
+<button id="open-dialog">Show modal</button>
 
 <script>
-  ;(function () {
-    var updateButton = document.getElementById('updateDetails')
-    var cancelButton = document.getElementById('cancel')
-    var favDialog = document.getElementById('favDialog')
+  const openBtn = document.querySelector('#open-dialog');
+  const dialog = document.querySelector('dialog');
+  const closeBtn = document.querySelector('#close-dialog');
 
-    // Update button opens a modal dialog
-    updateButton.addEventListener('click', function () {
-      favDialog.showModal()
-    })
+  openBtn.addEventListener('click', function () {
+    dialog.showModal();
+  });
 
-    // Form cancel button closes the dialog box
-    cancelButton.addEventListener('click', function () {
-      favDialog.close()
-    })
-  })()
+  closeBtn.addEventListener('click', function () {
+    dialog.close();
+  });
 </script>
