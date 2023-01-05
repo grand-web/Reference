@@ -2,7 +2,7 @@
 
 [![W3C Validation](https://img.shields.io/w3c-validation/default?targetUrl=https%3A%2F%2Fgrand-web.github.io%2FReference%2F)](https://www.w3.org/Consortium/)
 
-- Примеры использования базового синтаксиса JS/HTML/CSS.
+- Примеры использования синтаксиса JS/PHP/HTML/CSS.
 - Решение основных задач, без обращения к сторонним библиотекам.
 - Мини-руководства по основам языков.
 
@@ -58,6 +58,10 @@
   - [текст](mini-manuals/css-tags.md#оглавление)
 - CSS, [псевдоклассы](mini-manuals/css-pseudocl.md) [[1](https://www.w3schools.com/css/css_pseudo_classes.asp)\], псеводэлементы [[1](https://www.w3schools.com/css/css_pseudo_elements.asp)\]
 - [CSS интересные демо](https://www.w3schools.com/cssref/playdemo.php?filename=playcss_accent-color)
+
+#### JS
+
+- [JS, основы](mini-manuals/js.md)
 
 #### ДОПОЛНИТЕЛЬНО
 
